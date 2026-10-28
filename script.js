@@ -48,9 +48,9 @@ for(let i = 2; i < 10; i++){
 
 // 배열 원소의 자료형이 다른경우에 for문으로 출력하면 어떻게 되나?
 
-let arr = [1, "안녕", 3.14] 
+let arr = [1, "안녕", 3.14, true, "-1"] ;
 
 for(let i = 0; i < 5; i++){
-    console.log();
+    console.log(arr[i]);
 }
 
